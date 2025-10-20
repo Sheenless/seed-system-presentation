@@ -2,7 +2,7 @@
 # You can also start simply with 'default'
 theme: seriph
 # see https://nisd.ac.uk/wp-content/uploads/2019/06/IMG_9612-smaller.jpg
-background: ./assets/images/seedsentrybagb.jpg
+background: "./assets/images/seedsentrybagb.jpg"
 # some information about your slides (markdown enabled)
 title: Seed system intro
 info: |
@@ -25,10 +25,7 @@ Hello everyone, it's a pleasure.
 
 ---
 layout: image-left
-
-image: ./assets/images/hunt-gath.png
-
-class: hunt_gath
+image: "./assets/images/hunt-gath.png"
 ---
 
 ### Pathway to agriculture today
@@ -97,11 +94,12 @@ layout: two-cols
 class: img-left-contain
 ---
 
-<div class="h-full w-full flex items-center justify-center">
+<div class="h-full w-full flex items-center justify-center p-4">
   <img
     src="./assets/images/peas.png"
     alt="few crops"
-    class="max-h-[80vh] w-full object-contain"
+    class="max-w-full object-contain"
+    style="max-height:80vh"
   >
 </div>
 
